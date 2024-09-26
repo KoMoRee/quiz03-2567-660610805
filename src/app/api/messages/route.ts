@@ -3,7 +3,7 @@ import { checkToken } from "@lib/checkToken";
 import { nanoid } from "nanoid";
 import { NextRequest, NextResponse } from "next/server";
 import { Database } from "@lib/DB";
-import { routeModule } from "next/dist/build/templates/pages";
+// import { routeModule } from "next/dist/build/templates/pages";
 
 export const GET = async (request: NextRequest) => {
   readDB();
